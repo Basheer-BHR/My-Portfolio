@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 50px;
+}
+
+header .logo img {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+span{
+    color: orangered;
+}
+
+.intro-image img{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 50%;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me .stats .stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+#home .intro {
+    text-align: center;
+}
+
+#home .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#home .buttons button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#about {
+    background-color: #444;
+    text-align: center;
+}
+
+#about .about-me h2 {
+    font-size: 32px;
+}
+
+#about .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#about .stats .stat {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#services {
+    text-align: center;
+    background-color: #333;
+}
+
+#services h2 {
+    font-size: 32px;
+}
+
+#services .services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#services .service {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px 0;
+}
+
+#resume {
+    background-color: #444;
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 32px;
+}
+
+#resume .education, #resume .experience {
+    margin-top: 20px;
+}
+
+#resume .edu-item, #resume .exp-item {
+    background-color: #555;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#portfolio {
+    background-color: #333;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 32px;
+}
+
+#portfolio .projects {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#portfolio .project img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: #444;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#contact form input, #contact form textarea {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    padding: 50px 100px;
+}
+
+footer .useful-links{
+    text-decoration: none;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer .footer-content h3 {
+    font-size: 20px;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+}
+
+footer p {
+    margin: 0;
+}
